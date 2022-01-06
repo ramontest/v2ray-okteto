@@ -1,7 +1,7 @@
 {
   "inbounds": [
     {
-      "port": 8080,
+      "port": 443,
       "listen":"::",
       "protocol": "vmess",
       "settings": {
@@ -15,7 +15,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-        "path": "/xiaonuo"
+        "path": "/"
         }
       }
     }
